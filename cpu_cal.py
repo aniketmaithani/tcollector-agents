@@ -2,7 +2,7 @@ import os
 import time
 import sys 
 import multiprocessing
-#from collectors.lib import utils
+from collectors.lib import utils
 host=os.popen('hostname -f').read()
 
 metric1="user.percentage"
